@@ -15,4 +15,9 @@ class Song
     @@all
   end
 
+
+  def songs
+
+  end
+
 end
