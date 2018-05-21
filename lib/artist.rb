@@ -15,7 +15,7 @@ class Artist
 
   def new_song(name, genre)
     create_genre = Genre.new(genre)
-    Song.new(name)
+    create_song = Song.new(name)
   end
 
 end
