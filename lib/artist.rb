@@ -18,4 +18,12 @@ class Artist
     self.songs << Song.new(name, self, genre)
   end
 
+  def songs
+    self.songs
+  end
+
+  def genres
+    self.genres
+  end
+
 end
