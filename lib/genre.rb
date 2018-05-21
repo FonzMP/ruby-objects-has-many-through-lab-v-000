@@ -13,5 +13,6 @@ class Genre
   end
 
   def new_song(name, artist)
+    self.songs <<
 
 end
