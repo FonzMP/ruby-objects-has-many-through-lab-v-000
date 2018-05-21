@@ -13,7 +13,7 @@ class Genre
   end
 
   def artists
-    Artists.all.select do |artists|
+    Artist.all.select do |artists|
       artists.genre == self
     end
   end
