@@ -12,7 +12,7 @@ class Song
   end
 
   def self.all
-    @@all.artist
+    @@all
   end
 
 end
