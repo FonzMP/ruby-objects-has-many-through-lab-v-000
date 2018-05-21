@@ -22,7 +22,7 @@ class Genre
   def artists
     self.songs.select do |song|
       song.artist
-    end 
+    end
   end
 
   def new_song(name, artist)
