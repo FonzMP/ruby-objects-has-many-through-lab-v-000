@@ -24,6 +24,6 @@ class Artist
     end
   end
 
-  def genres
+  # def genres
 
 end
