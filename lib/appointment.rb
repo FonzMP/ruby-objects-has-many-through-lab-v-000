@@ -15,4 +15,8 @@ class Appointment
     @@all
   end
 
+  def doctors
+
+  end
+
 end
